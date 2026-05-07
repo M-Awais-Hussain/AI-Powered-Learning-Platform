@@ -1,0 +1,155 @@
+/* Materials Container
+   Uses animations from styles/animations.css */
+.materials-container {
+  padding: 0;
+  max-width: 100%;
+  animation: fadeIn 0.4s ease-out;
+}
+
+
+
+/* Materials Content */
+.materials-content {
+  min-height: 300px;
+}
+
+/* .loading-state, .loading-spinner moved to styles/empty-states.css */
+/* .empty-state, .empty-illustration, .empty-icon, .empty-circles moved to styles/empty-states.css */
+/* .empty-title, .empty-text, .empty-btn moved to styles/empty-states.css */
+/* @keyframes spin moved to styles/animations.css */
+/* @keyframes pulse moved to styles/animations.css */
+
+
+
+.upload-btn-secondary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Material Card Redesign */
+.material-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: cardFadeIn 0.4s ease-out backwards;
+  animation-delay: var(--delay, 0s);
+  cursor: pointer;
+}
+
+/* .hover-shadow and .line-clamp-2 moved to styles/utilities.css */
+
+.btn-white {
+  background: white;
+  color: #1e293b;
+}
+
+.btn-white:hover {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* Animations */
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Results Footer */
+.results-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.results-count {
+  background: #f3f4f6;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .quick-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .materials-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .materials-hero {
+    padding: 1.5rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .upload-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .quick-stats {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .materials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.25rem;
+  }
+
+  .hero-icon {
+    font-size: 1.5rem;
+  }
+
+  .stat-card {
+    padding: 0.875rem 1rem;
+  }
+
+  .stat-value {
+    font-size: 1.15rem;
+  }
+
+  .card-actions {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .action-btn {
+    width: 100%;
+  }
+}

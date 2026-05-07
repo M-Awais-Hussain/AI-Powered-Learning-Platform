@@ -1,0 +1,291 @@
+.ms-container {
+    padding: 2.5rem 2rem;
+}
+
+
+.ms-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.ms-search-input {
+    width: 300px;
+}
+
+.ms-search-input .input-group-text {
+    background: white;
+    border-right: none;
+    color: #94a3b8;
+}
+
+.ms-search-input .form-control {
+    border-left: none;
+}
+
+/* New List Header */
+.ms-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.ms-list-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin: 0;
+}
+
+.ms-list-subtitle {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    margin: 0.25rem 0 0 0;
+}
+
+.ms-search-input-alt {
+    width: 350px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.ms-search-input-alt .input-group-text {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    padding-right: 0.5rem;
+}
+
+.ms-search-input-alt .form-control {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    padding-left: 0;
+    font-size: 0.9375rem;
+}
+
+.ms-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background: white;
+    overflow: hidden;
+}
+
+.ms-table {
+    margin: 0;
+}
+
+.ms-table thead th {
+    background: #ffffff;
+    /* Changed from #f8fafc to match image */
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    color: #64748b;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-top: none;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+.ms-table tbody td {
+    padding: 1rem 1.5rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.ms-student-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ms-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #e2e8f0;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.ms-student-name {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.ms-student-email {
+    font-size: 0.8125rem;
+    color: #64748b;
+}
+
+.ms-badge {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.ms-score-value {
+    font-weight: 700;
+    font-size: 1.125rem;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.ms-score-value.high {
+    color: #10b981;
+}
+
+.ms-score-value.med {
+    color: #f59e0b;
+}
+
+.ms-score-value.low {
+    color: #ef4444;
+}
+
+.ms-mini-progress {
+    width: 100px;
+    height: 4px;
+    background: #f1f5f9;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.ms-mini-progress-fill {
+    height: 100%;
+}
+
+.ms-date {
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+.ms-row-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ms-btn-action {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.ms-row-expanded {
+    background-color: #f8fafc;
+}
+
+.ms-analytics-row {
+    background-color: #f8fafc;
+}
+
+.ms-analytics-content {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #f1f5f9;
+    background-color: #f8fafc;
+}
+
+.ms-analytics-header-alt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ms-analytics-header-alt h6 {
+    font-weight: 700;
+    color: #475569;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.ms-sub-table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.ms-sub-table thead th {
+    background: #f8fafc;
+    padding: 0.75rem 1.25rem;
+    font-size: 11px;
+    color: #64748b;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.ms-sub-row td {
+    padding: 1rem 1.25rem !important;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.ms-sub-row:hover {
+    background-color: #fcfdfe;
+}
+
+.text-purple {
+    color: #8b5cf6;
+}
+
+.ms-insight-box {
+    background: #fdfaff;
+    border: 1px solid #f3e8ff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    animation: slideDown 0.3s ease-out;
+}
+
+.ms-insight-section h6 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #5b21b6;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.ms-attention-text {
+    font-size: 0.9375rem;
+    color: #4c1d95;
+    line-height: 1.6;
+    margin: 0;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ede9fe;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ms-empty-analytics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #94a3b8;
+    font-style: italic;
+}

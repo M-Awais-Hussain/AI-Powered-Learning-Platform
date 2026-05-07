@@ -1,0 +1,132 @@
+/* Group Detail Page Layout */
+
+.group-detail-wrapper {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding-top: 64px; /* Space for fixed topbar */
+  display: flex;
+}
+
+.group-detail-content {
+  flex: 1;
+  margin-left: 260px; /* Match new sidebar width */
+  padding: 2rem;
+  max-width: calc(100% - 260px);
+  overflow-x: hidden;
+}
+
+.group-header {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.group-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+}
+
+.group-description {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+}
+
+.group-meta {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.group-code {
+  font-size: 0.875rem;
+  color: #4b5563;
+  background: #f3f4f6;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.group-code strong {
+  color: #2563eb;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.group-stats {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 1.5rem 0;
+}
+
+.group-detail-loading,
+.group-detail-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 64px);
+  background-color: #f8fafc;
+}
+
+.group-detail-error h3 {
+  color: #ef4444;
+  margin-bottom: 1rem;
+}
+
+.group-detail-error button {
+  padding: 0.75rem 1.5rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.group-detail-error button:hover {
+  background: #1d4ed8;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .group-detail-content {
+    margin-left: 80px; /* Match responsive sidebar width */
+    max-width: calc(100% - 80px);
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .group-detail-content {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .group-header {
+    padding: 1.5rem;
+  }
+
+  .group-title {
+    font-size: 1.5rem;
+  }
+
+  .group-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+

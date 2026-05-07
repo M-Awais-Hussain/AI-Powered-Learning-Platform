@@ -1,0 +1,69 @@
+.timer-container {
+  margin-bottom: 1.5rem;
+}
+
+.timer-alert {
+  margin-bottom: 0;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.timer-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.timer-icon {
+  font-size: 2rem;
+}
+
+.timer-text {
+  flex: 1;
+}
+
+.timer-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.timer-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+}
+
+.timer-message {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.timer-warning .timer-alert {
+  border-color: #ffc107;
+  background-color: #fff3cd;
+  animation: pulse 2s infinite;
+}
+
+.timer-danger .timer-alert {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+  animation: pulse 1s infinite;
+}
+
+.timer-expired .timer-alert {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}

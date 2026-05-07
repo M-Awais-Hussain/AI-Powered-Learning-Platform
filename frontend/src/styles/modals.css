@@ -1,0 +1,216 @@
+/* ============================================================
+   Shared Modal Styles
+   Consolidated from: CreateGroupModal.css, GenerateQuizModal.css,
+                      StudentsModal.css, UploadMaterialModal.css
+   ============================================================ */
+
+/* ── Base Modal ─────────────────────────────────────────────── */
+.create-group-modal .modal-content,
+.generate-quiz-modal .modal-content,
+.students-modal .modal-content,
+.upload-material-modal .modal-content,
+.delete-modal .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* ── Modal Header ───────────────────────────────────────────── */
+.create-group-modal .modal-header {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1.5rem;
+}
+
+.generate-quiz-modal .modal-header,
+.students-modal .modal-header,
+.upload-material-modal .modal-header {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 12px 12px 0 0;
+}
+
+/* ── Modal Title ────────────────────────────────────────────── */
+.create-group-modal .modal-title,
+.generate-quiz-modal .modal-title,
+.students-modal .modal-title,
+.upload-material-modal .modal-title {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.create-group-modal .modal-title {
+  font-size: 1.25rem;
+  color: #1a1a1a;
+}
+
+/* ── Modal Body ─────────────────────────────────────────────── */
+.create-group-modal .modal-body {
+  padding: 1.5rem;
+}
+
+/* ── Modal Footer ───────────────────────────────────────────── */
+.create-group-modal .modal-footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem 1.5rem;
+}
+
+.generate-quiz-modal .modal-footer,
+.students-modal .modal-footer,
+.upload-material-modal .modal-footer {
+  border-top: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 0 0 12px 12px;
+}
+
+/* ── Create Group Form ──────────────────────────────────────── */
+.create-group-modal .form-label {
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.create-group-modal .form-control {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.625rem 0.875rem;
+  transition: all 0.2s;
+}
+
+.create-group-modal .form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* ── Quiz Preview ───────────────────────────────────────────── */
+.quiz-preview {
+  padding: 1rem;
+  background: #f3f4f6;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  margin-top: 1rem;
+}
+
+.quiz-preview h6 {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.preview-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preview-list li {
+  padding: 0.5rem 0;
+  color: #4b5563;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.preview-list li:last-child {
+  border-bottom: none;
+}
+
+/* ── Students Modal ─────────────────────────────────────────── */
+.students-search {
+  margin-bottom: 1.5rem;
+}
+
+.students-table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.students-table-container table {
+  margin-bottom: 0;
+}
+
+.students-table-container thead {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 10;
+}
+
+.students-modal .btn {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+/* ── Upload Material Modal ──────────────────────────────────── */
+.file-preview {
+  padding: 1rem;
+  background: #f3f4f6;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-name {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.file-size {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* ── Delete Confirmation Modal ──────────────────────────────── */
+.delete-modal .modal-content {
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.delete-modal .modal-body {
+  padding: 2rem;
+}
+
+.delete-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: rgba(239, 68, 68, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.delete-modal h4 {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.delete-modal .btn-secondary {
+  background: #f3f4f6;
+  border: none;
+  color: #374151;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 0.6rem 1.25rem;
+}
+
+.delete-modal .btn-secondary:hover {
+  background: #e5e7eb;
+}
+
+.delete-modal .btn-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  border: none;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 0.6rem 1.25rem;
+}
+
+.delete-modal .btn-danger:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: translateY(-1px);
+}

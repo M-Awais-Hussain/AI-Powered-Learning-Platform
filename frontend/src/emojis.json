@@ -1,0 +1,362 @@
+[
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\auth\\Login.js",
+    "line": 43,
+    "content": "<div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎓</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\auth\\Signup.jsx",
+    "line": 56,
+    "content": "<div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎓</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\auth\\Signup.jsx",
+    "line": 121,
+    "content": "<div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>👨‍🎓</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\auth\\Signup.jsx",
+    "line": 138,
+    "content": "<div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>👨‍🏫</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\pages\\GroupSelector.js",
+    "line": 124,
+    "content": "🔗 Join with Code"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\ChartSection.jsx",
+    "line": 53,
+    "content": "<h4 className=\"ds-chart-title\">📊 Students per Group</h4>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\ChartSection.jsx",
+    "line": 73,
+    "content": "<h4 className=\"ds-chart-title\">📈 Average Quiz Scores Over Time</h4>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\ChartSection.jsx",
+    "line": 93,
+    "content": "<h4 className=\"ds-chart-title\">🧮 Materials by Category</h4>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\ChartSection.jsx",
+    "line": 122,
+    "content": "<h4 className=\"ds-chart-title\">📉 Performance by Subject</h4>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\GroupCard.jsx",
+    "line": 38,
+    "content": "🗑️"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\GroupCard.jsx",
+    "line": 44,
+    "content": "<div className=\"gc-stat-icon\">👥</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\GroupCard.jsx",
+    "line": 51,
+    "content": "<div className=\"gc-stat-icon\">📚</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\GroupCard.jsx",
+    "line": 58,
+    "content": "<div className=\"gc-stat-icon\">📝</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\GroupCard.jsx",
+    "line": 65,
+    "content": "<div className=\"gc-stat-icon\">📈</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Navbar.jsx",
+    "line": 40,
+    "content": "🔗 Join Group"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Sidebar.jsx",
+    "line": 10,
+    "content": "{ id: 'overview', label: 'Overview', icon: '📊', path: `/teacher/group/${groupId}` },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Sidebar.jsx",
+    "line": 12,
+    "content": "{ id: 'materials', label: 'Materials', icon: '📁', path: `/teacher/group/${groupId}/materials` },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Toast.js",
+    "line": 34,
+    "content": "return '✓';"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Toast.js",
+    "line": 36,
+    "content": "return '✕';"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\Toast.js",
+    "line": 42,
+    "content": "return '✓';"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\TopBar.jsx",
+    "line": 33,
+    "content": "<span>🎓</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\TopBar.jsx",
+    "line": 50,
+    "content": "➕ Create Group"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\TopBar.jsx",
+    "line": 58,
+    "content": "👤 Profile"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\shared\\components\\TopBar.jsx",
+    "line": 65,
+    "content": "🚪 Logout"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\Materials.jsx",
+    "line": 39,
+    "content": "⭐ Bookmarks ({bookmarks.length})"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\Materials.jsx",
+    "line": 48,
+    "content": "<span className=\"position-absolute top-50 start-0 translate-middle-y ps-3 text-muted\">🔍</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\Overview.jsx",
+    "line": 75,
+    "content": "<span>➡️</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\Overview.jsx",
+    "line": 82,
+    "content": "<span>➡️</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\ProfileSection.jsx",
+    "line": 83,
+    "content": "<h5>✏️ Edit Profile</h5>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\ProfileSection.jsx",
+    "line": 129,
+    "content": "<h5>🔒 Change Password</h5>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\ProfileSection.jsx",
+    "line": 173,
+    "content": "<h5>⚙️ Preferences</h5>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\QuizCard.jsx",
+    "line": 71,
+    "content": "<span className=\"info-label\">🕐 Starts:</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\QuizCard.jsx",
+    "line": 77,
+    "content": "<span className=\"info-label\">🕐 Ends:</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\QuizCard.jsx",
+    "line": 106,
+    "content": ": '🚀 Start Quiz'}"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 7,
+    "content": "{ id: 'groups', label: 'My Groups', icon: '👥' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 8,
+    "content": "{ id: 'recommendations', label: 'Recommended', icon: '📊' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 14,
+    "content": "{ id: 'overview', label: 'Group Overview', icon: '🏠' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 16,
+    "content": "{ id: 'quizzes', label: 'Quizzes', icon: '📝' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 24,
+    "content": "<span>🎓</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\components\\StudentSidebar.jsx",
+    "line": 84,
+    "content": "<span className=\"sd-nav-icon\">🚪</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\pages\\QuizPage.jsx",
+    "line": 221,
+    "content": "<span style={{ fontSize: '2rem' }}>{idx === 0 ? '✓' : '✗'}</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\pages\\QuizTakingPage.jsx",
+    "line": 189,
+    "content": "💾 Progress auto-saved"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\pages\\QuizTakingPage.jsx",
+    "line": 289,
+    "content": "{index + 1} {answers[q.id || index] ? '✓' : ''}"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\studentDashboard\\pages\\QuizTakingPage.jsx",
+    "line": 313,
+    "content": "'Submitted ✓'"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupAIChat.jsx",
+    "line": 272,
+    "content": "➤ Send"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 109,
+    "content": "image: { icon: '🖼️', color: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.1)' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 113,
+    "content": "file: { icon: '📎', color: '#6b7280', bg: 'rgba(107, 114, 128, 0.1)' },"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 171,
+    "content": "<div className=\"stat-icon\">💾</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 178,
+    "content": "<div className=\"stat-icon\">🏷️</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 190,
+    "content": "<span className=\"search-icon\">🔍</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 203,
+    "content": "✕"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 294,
+    "content": "<span className=\"meta-icon\">💾</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 299,
+    "content": "<span className=\"meta-icon\">📅</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupMaterials.jsx",
+    "line": 316,
+    "content": "<span className=\"action-icon\">👁️</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupOverview.jsx",
+    "line": 286,
+    "content": "<h5 className=\"ov-chart-title\">🧠 Topic Difficulty Analysis</h5>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupQuizzes.jsx",
+    "line": 195,
+    "content": "<span>✨</span> Generate Quiz"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupQuizzes.jsx",
+    "line": 227,
+    "content": "<span className=\"search-icon\">🔍</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupQuizzes.jsx",
+    "line": 275,
+    "content": "✨ Generate Your First Quiz"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupQuizzes.jsx",
+    "line": 320,
+    "content": "<span className=\"meta-icon\">📅</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\GroupQuizzes.jsx",
+    "line": 349,
+    "content": "✏️"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\components\\ManageStudents.jsx",
+    "line": 90,
+    "content": "<InputGroup.Text>🔍</InputGroup.Text>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\EditQuizModal.jsx",
+    "line": 175,
+    "content": "<Modal.Title>✏️ Edit Quiz</Modal.Title>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\EditQuizModal.jsx",
+    "line": 354,
+    "content": "label={<strong>🔄 Regenerate Quiz Questions</strong>}"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\EditQuizModal.jsx",
+    "line": 409,
+    "content": "formData.regenerateContent ? '🔄 Update & Regenerate' : '💾 Save Changes'"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\GenerateQuizModal.jsx",
+    "line": 217,
+    "content": "<Modal.Title>🧠 Generate Quiz with AI</Modal.Title>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\GenerateQuizModal.jsx",
+    "line": 444,
+    "content": "'🧠 Generate Quiz with AI'"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\StudentsModal.jsx",
+    "line": 57,
+    "content": "<InputGroup.Text>🔍</InputGroup.Text>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\StudentsModal.jsx",
+    "line": 123,
+    "content": "📧 Send Message to All"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\modals\\UploadMaterialModal.jsx",
+    "line": 180,
+    "content": "'📤 Upload Material'"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\pages\\TeacherGroupsPage.jsx",
+    "line": 115,
+    "content": "<span className=\"td-title-icon\">📂</span>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\pages\\TeacherGroupsPage.jsx",
+    "line": 134,
+    "content": "<div className=\"td-empty-icon\">👥</div>"
+  },
+  {
+    "file": "e:\\learning-platform\\frontend\\src\\teacherDashboard\\pages\\TeacherGroupsPage.jsx",
+    "line": 164,
+    "content": "<span className=\"td-title-icon\">📊</span>"
+  }
+]

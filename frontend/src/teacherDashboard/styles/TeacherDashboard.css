@@ -1,0 +1,200 @@
+/* Teacher Dashboard Container
+   Uses fadeIn from styles/animations.css */
+.td-container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding-top: 64px; /* Space for fixed topbar */
+  animation: fadeIn 0.4s ease-out;
+}
+
+
+.td-content {
+  padding: 2.5rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Sections */
+.td-section {
+  margin-bottom: 3.5rem;
+}
+
+.td-analytics-section {
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.td-section-header {
+  margin-bottom: 2rem;
+}
+
+.td-section-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.td-title-icon {
+  font-size: 1.25rem;
+}
+
+/* Groups Grid */
+.td-groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+}
+
+/* Empty State */
+.td-empty-state {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: white;
+  border-radius: 20px;
+  border: 1px dashed #cbd5e1;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.td-empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+
+.td-empty-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.td-empty-text {
+  color: #64748b;
+  margin-bottom: 2rem;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.td-create-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.td-create-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+/* skeletons */
+.td-skeleton-card {
+  height: 280px;
+  background: #f1f5f9;
+  border-radius: 18px;
+}
+
+.td-loading-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.td-loading-animation::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: tdSkeleton 1.5s infinite;
+}
+
+@keyframes tdSkeleton {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Dashboard Analytics (ds-) */
+.ds-analytics-container {
+  width: 100%;
+}
+
+.ds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1.5rem;
+}
+
+.ds-chart-wrapper {
+  min-width: 0;
+  /* Fix flex/grid child overflow */
+}
+
+.ds-chart-card {
+  background: white;
+  border-radius: 18px;
+  border: 1px solid #eef2f6;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  height: 100%;
+}
+
+.ds-chart-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ds-empty-chart {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-size: 0.875rem;
+  background: #f8fafc;
+  border-radius: 12px;
+}
+
+@media (max-width: 1024px) {
+  .ds-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .td-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .td-section-title {
+    font-size: 1.25rem;
+  }
+
+  .td-groups-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
