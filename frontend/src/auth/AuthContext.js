@@ -12,7 +12,7 @@ export const useAuth = () => {
 };
 
 // Configure axios to include JWT token in requests
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
 axios.interceptors.request.use(
     (config) => {
