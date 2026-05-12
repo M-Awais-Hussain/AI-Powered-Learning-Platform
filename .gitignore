@@ -75,3 +75,4 @@ logs/
 *.sqlite
 *.sqlite3
 
+.env.production.ini
