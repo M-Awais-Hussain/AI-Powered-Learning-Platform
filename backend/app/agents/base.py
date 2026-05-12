@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+hf_api_key = os.getenv("HUGGINGFACE_API_KEY")
+if hf_api_key and not os.getenv("HF_TOKEN"):
+    os.environ["HF_TOKEN"] = hf_api_key
 
 # Initialize LLM
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
